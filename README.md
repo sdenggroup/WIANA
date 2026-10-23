@@ -43,7 +43,7 @@ Currently, two versions of the executable are provided:
 
 ## 🚀 Usage Example
 
-### On Windows 10
+### On Windows
 
 **Step 1: Prepare Input Files**
 The following files need to be prepared before running:
@@ -58,7 +58,7 @@ Run the program `WIANA_b1.exe`.
 **Step 3: View Results**
 Calculation results are saved in the automatically generated `Results_Output` folder.
 
-### Usage on Linux
+### On Linux
 
 To ensure the program correctly loads the required dynamic libraries, it is recommended to launch it via the provided Shell script `run_WIANA_B_Linux.sh`. The launch script is located in the `<Installation_Path>/application`. The remaining steps are identical to those on Windows.
 
