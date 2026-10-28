@@ -1,0 +1,58 @@
+======================================================================
+  WIANA - v1.0
+  Start time: 2026-10-23 21:46:44
+  MATLAB version: 9.12.0.1884302 (R2022a)
+  Platform: PCWIN64
+======================================================================
+
+>>> Initialization <<<
+  Output directory: result\RDG_Direct_VASP_1
+  Input file: CHGCAR
+  Detected format: VASP
+  Calculation type(s): RDG
+  Algorithm: Direct (type 1)
+
+>>> Geometry and grid information <<<
+  Grid size: 108 x 160 x 108 (total points: 1866240)
+  Lattice vectors (Angstrom):
+    a1:     8.909531     0.000000     0.000000
+    a2:     0.000000    12.654344     0.000000
+    a3:     0.000000     0.000000     8.502587
+  Unit cell volume (Ang^3): 958.617966
+  Number of atoms: 48
+
+>>> Calculation parameters <<<
+  Padding layers: 2
+  Clamp value: 100.000
+  sign(λ₂)·ρ color range: [-0.050, 0.050]
+  Low density cutoff: 1.0e-03
+  Filter enabled: sign(λ₂)·ρ in [-0.050, 0.050]
+  Save scatter plot (PNG): Yes
+  Save scatter data (.dat): Yes
+
+>>> Computing gradient and Hessian (algorithm 1) <<<
+
+--- Processing RDG ---
+  Effective density cutoff: rho > 0.0500 -> clamp to 100.00
+  Valid points after filtering: 1847084 / 1866240 (99.0%)
+  RDG range: [0.0000, 100.0000]
+  sign(λ₂)·ρ range: [-1.2480, 0.5623]
+  >> RDG file: RDG_(-0.050_to_0.050).vasp
+  >> sign(λ₂)·ρ file: sign_rho.vasp
+  >> Scatter data (filtered) saved: result\RDG_Direct_VASP_1\RDG_(-0.050_to_0.050).dat
+  >> Effective X range: [-0.0500, 0.0500], Y range: [0.0000, 97.2888]
+  >> Scatter points in display range: 1514972 / 1535968 (98.6%)
+  >> Scatter plot saved: result\RDG_Direct_VASP_1\RDG_Scatter.png
+
+>>> Output files summary <<<
+  RDG_(-0.050_to_0.050).dat
+  RDG_(-0.050_to_0.050).vasp
+  RDG_Scatter.png
+  sign_rho.vasp
+  wiana.log
+  Total files generated: 5
+
+>>> Program finished <<<
+  End time: 2026-10-23 21:47:21
+  Total elapsed time: 37.63 seconds
+======================================================================

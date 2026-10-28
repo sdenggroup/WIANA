@@ -1,0 +1,20 @@
+SYSTEM = static
+
+ENCUT= 600 eV
+ISMEAR = -5
+#SIGMA = 0.01
+NELMDL = -5
+NELMIN = 4
+
+EDIFF = 0.00001  !stopping criterion for ELM
+#EDIFFG = -0.001 !stopping criterion for forces
+
+NELM = 60
+NSW =  0      ! allow 60 steps
+ISIF = 0       !
+IBRION = -1    ! use q-n algorithm
+POTIM = 0.5   ! reduce trial step to 70%
+LORBIT= 10    ! calculated DOS in its local atoms
+
+KSPACING=0.15
+KGAMMA=.TRUE.
